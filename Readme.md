@@ -30,7 +30,7 @@ Name          Command          State         Ports
 flask   uwsgi app.ini          Up      8080/tcp
 nginx   nginx -g daemon off;   Up      0.0.0.0:80->80/tcp
 
-*Reference Links
+Reference Links
 
 https://pythonise.com/series/learning-flask/building-a-flask-app-with-docker-compose#nginx-dockerfile
 
@@ -38,6 +38,10 @@ https://codingwithmanny.medium.com/configure-self-signed-ssl-for-nginx-docker-fr
 
 https://www.humankode.com/ssl/how-to-set-up-free-ssl-certificates-from-lets-encrypt-using-docker-and-nginx
 
+https://www.digitalocean.com/community/tutorials/how-to-create-a-self-signed-ssl-certificate-for-nginx-in-ubuntu-18-04
 
+https://github.com/andresgutgon/self-signed-certificate-nginx-docker-compose
+
+https://www.johnmackenzie.co.uk/posts/using-self-signed-ssl-certificates-with-docker-and-nginx/
 
 
