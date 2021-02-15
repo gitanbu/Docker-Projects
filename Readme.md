@@ -44,4 +44,6 @@ https://github.com/andresgutgon/self-signed-certificate-nginx-docker-compose
 
 https://www.johnmackenzie.co.uk/posts/using-self-signed-ssl-certificates-with-docker-and-nginx/
 
+https://github.com/itnok/docker-nginx-uwsgi-letsencrypt-flask
+
 
