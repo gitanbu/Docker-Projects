@@ -34,6 +34,8 @@ Reference Links
 
 https://pythonise.com/series/learning-flask/building-a-flask-app-with-docker-compose#nginx-dockerfile
 
+https://rlagowski.medium.com/create-flask-app-with-uwsgi-nginx-certbot-for-ssl-and-all-this-with-docker-a9f23516618d
+
 https://codingwithmanny.medium.com/configure-self-signed-ssl-for-nginx-docker-from-a-scratch-7c2bcd5478c6
 
 https://www.humankode.com/ssl/how-to-set-up-free-ssl-certificates-from-lets-encrypt-using-docker-and-nginx
