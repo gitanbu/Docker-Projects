@@ -1,0 +1,33 @@
+version: "3.7"
+
+services:
+
+  flask:
+    image: public.ecr.aws/n1i7o3y8/bitwalaecr:flask
+    build: 
+      context: ./flask
+      dockerfile: Dockerfile
+      args:
+        - PYTHON_VERSION=3.7.0
+    restart: always
+    environment:
+      - APP_NAME=MyFlaskApp
+    expose:
+      - 5000
+    networks:
+      - appnet
+
+  nginx:
+    image: public.ecr.aws/n1i7o3y8/bitwalaecr:nginx
+    build: ./nginx
+    restart: always
+    depends_on:
+    - flask
+    ports:
+      - "80:80"
+      - "443:443"
+    networks:
+      - appnet
+
+networks:
+  appnet:
